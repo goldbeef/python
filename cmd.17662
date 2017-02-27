@@ -1,0 +1,112 @@
+python env:
+    PYTHONPATH
+    PYTHONCASEOK
+    PYTHONSTARTUP
+    PYTHONHOME
+------------------------------------
+python run mode:
+    interactive mode
+        python
+    command mode 
+        python script.py 
+    IDE mode 
+        pycharm
+------------------------------------
+Chinese language encode
+    # -*- coding: UTF-8 -*-
+    #coding:utf-8
+------------------------------------
+strict indentation
+    -----------------
+    if True:
+        print "Answer"
+        print "True"
+    else:
+        print "Answer"
+        # 没有严格缩进，在执行时会报错
+      print "False"
+    ------------------
+    multi-line-statement
+        \
+    -----------------
+------------------------------------
+python quote
+    -----------------
+    ''
+    ""
+    """ """
+------------------------------------
+python mark
+    ''' mark content '''
+    """ mark content """
+------------------------------------
+one-line with multi-satement
+    statement1; statement2
+------------------------------------
+var-assign
+    varname1 = val1
+    varname1 = varname2 = val;
+    varname1, varname2 = val1, val2
+------------------------------------
+var-type
+    -----------------
+    numbers
+        int 
+        long
+        float 
+        complex
+    -----------------
+    string
+        index
+            left-2-right
+                0 ... len-1
+            right-2-left
+                -1 ... -len
+        add operator:
+            +
+        stringname[begin:end]
+        repeat operator:
+            *
+    -----------------
+    list
+        []
+        index
+        add operator:
+            +
+        repeat operator:
+            *
+            listname[begin:end]
+    -----------------
+    tuple
+        ()
+        index 
+        add operator
+    -----------------
+    dict
+        { }
+        index
+    -----------------
+------------------------------------
+python operator
+    -----------------
+    math operator
+        + - * / % **
+    -----------------
+    compare operator
+        > >= == < <= != <>
+    -----------------
+    bit operator
+        & ^ | ~ >> <<
+    -----------------
+    logic operator
+        and or not
+    -----------------
+    memeber operator
+        in 
+        not in
+    -----------------
+    identify operator
+        is 
+        is not
+    -----------------
+
