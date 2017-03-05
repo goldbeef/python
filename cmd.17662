@@ -109,4 +109,86 @@ python operator
         is 
         is not
     -----------------
+------------------------------------
+python condition statement;
+    ------------------
+    if condition1：
+        statement1 
+    else：
+        statement2
+    ------------------
+    if condition2:
+        statement1
+    elif condition2:
+        statement2
+    else 
+        statement3
+    ------------------
+------------------------------------
+python loop
+    -----------------
+    while condition:
+        statement 
 
+    while condition:
+        statement1
+    else 
+        statement2
+    -----------------
+    for iterating_var in sequence:
+        statements(s)
+
+    for iterating_var in sequence:
+        statements(s)
+    else 
+        statement
+    -----------------
+    break
+    continue
+    pass
+    -----------------
+------------------------------------
+python numbers
+    -----------------
+    var = val
+    del var 
+    -----------------
+    type
+        int 
+        long int 
+        float 
+        complex numbers
+    -----------------
+    type convert 
+    -----------------
+    math-function
+    random-function
+    triangle-function
+    -----------------
+    numbers-const
+------------------------------------
+python string
+    -----------------
+    var = 'hello'
+    val = "world"
+    -----------------
+    python escape
+    -----------------
+    string operator
+        +
+        *
+        [index]
+        [begIndex:endIndex]
+        in
+        not in 
+        R/r 
+            original string 
+        %   
+            format string 
+        triple quote 
+            ''' content '''
+        unicode string 
+            u"hello"
+        string.method
+------------------------------------
+    
