@@ -191,4 +191,66 @@ python string
             u"hello"
         string.method
 ------------------------------------
+python list 
+    -----------------
+    listVar = [1,2,3]
+    -----------------
+    index
+        listVar[index]
+        listVar[begIndex:endIndex]
+    ------------------
+    modify
+        listVar[index] = val1
+    -----------------
+    del 
+        del listVar[index]
+    -----------------
+    list operator
+        +
+        *
+        in 
+        not in 
+        len 
+    ------------------
+    list compare 
+        cmp
+        len 
+        max 
+        min
+        list(seq)
+    -----------------
+    list.method
+    ------------------
+------------------------------------
+python tuple
+    -----------------
+    tuple = (val1, val2)
+    -----------------
+    index 
+        [index]
+        [begin:endIndex]
+    modify
+        element modify not allowed
+    del 
+        element del not allowed 
+    -----------------
+    tuple operator
+        +
+        *
+        len 
+        in 
+        not in 
+    -----------------
+    任意无符号的对象，以逗号隔开，默认为元组
+    ------------------------------------
+    tuple.method
+        cmp 
+        len 
+        max 
+        min
+        tuple(seq)
+------------------------------------
+
     
+
+
