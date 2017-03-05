@@ -249,8 +249,59 @@ python tuple
         max 
         min
         tuple(seq)
+------------------------------------ 
+python dict 
+    -----------------
+    dict = {key1 : value1, key2 : value2 }
+    -----------------
+    index
+        dict[key]
+    modify 
+        dict[key] = val 
+    insert
+        dict[key] = val 
+    del 
+        del dict[key]
+        dict.clear
+    -----------------
+    dict outer-method 
+        cmp
+        len 
+        str 
+        type
+    dict bultin-method 
+        clear 
+        copy
 ------------------------------------
-
-    
-
-
+python date
+    -----------------
+    time.time()
+------------------------------------
+python type 
+    mutable-object
+        list, dict 
+    immutable-object
+        string, tuple, numbers
+------------------------------------
+python function
+    -----------------------
+    def functionname( parameters ):
+       "函数_文档字符串"
+       function_suite
+       return [expression]
+    -----------------------
+    def functionname([formal_args,] *var_args_tuple ):
+       "函数_文档字符串"
+       function_suite
+       return [expression]
+------------------------------------
+lambda expression
+    lambda [arg1 [,arg2,.....argn]]:expression
+    -----------------
+    # 可写函数说明
+    sum = lambda arg1, arg2: arg1 + arg2;
+     
+    # 调用sum函数
+    print "相加后的值为 : ", sum( 10, 20 )
+    print "相加后的值为 : ", sum( 20, 20 )
+    ------------------
